@@ -11,8 +11,14 @@ body {
   font-weight: bold;
   color: white;
 }
-.btns {
-  padding-bottom: 25px;
+button {
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 0.5em;
+  padding: 5px;
+  color: white;
+  background-color: teal;
+  border-color: teal;
 }
 #btntext {
   color: red;
