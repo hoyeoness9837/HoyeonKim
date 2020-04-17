@@ -5,6 +5,9 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
 }
+ul {
+  list-style-type: none;
+}
 .header {
   text-align: center;
   font-size: large;
@@ -23,7 +26,20 @@ button {
 #btntext {
   color: red;
 }
+#myNav {
+  background-color: thistle;
+  top: 0px;
+}
+#navList li {
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 30px;
+}
 #pagename {
+  margin: auto;
+  font-size: 45px;
+  font-weight: bold;
   color: orange;
 }
 #contact {
