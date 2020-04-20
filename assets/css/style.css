@@ -51,3 +51,39 @@ button {
   color: rgba(55, 100, 224, 0.644);
   border: solid;
 }
+@media screen and (max-width: 576px) {
+  .header {
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    color: white;
+  }
+  button {
+    margin-bottom: 5px;
+    font-size: 10px;
+    border-radius: 0.5em;
+    padding: 2px;
+    color: white;
+    background-color: teal;
+    border-color: teal;
+  }
+  #navList li {
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 15px;
+  }
+  #pagename {
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+  }
+  #intro {
+    display: block;
+    margin: auto;
+    color: rgba(55, 100, 224, 0.644);
+    border: solid;
+    width: 375px;
+  }
+}
